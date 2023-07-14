@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: frontend-quality-dashboard-wmq1
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-dysd-tenant/mc-quality-dashboard/frontend-quality-dashboard-wmq1@sha256:9de074c0c8628afd19552d0241eb3f16307b3b3b6ee1ec0fded94a543091d973
         imagePullPolicy: Always
         name: container-image
         ports:
